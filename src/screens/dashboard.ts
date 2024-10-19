@@ -45,8 +45,9 @@ class Dashboard extends HTMLElement {
                 this.shadowRoot.innerHTML = `
               
            <h1>PRODUCTS</h1>
+           <product-form></product-form>
                 <div class="container-products"></div>
-             <product-item></product-item>
+        
                 <hr>
                
                 `;
